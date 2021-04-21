@@ -31,3 +31,25 @@ console.log('%c I am some great text', 'font-size: 50px; background:red, text-sh
 // 4. Print a WARNING
 console.warn('OH NOOO!')
 // Gives the stack trace (where in the file the warning is being called) of where it got called
+
+// 5. Error :|
+console.error('SHIT')
+// Gives the stack trace (where in the file the warning is being called) of where it got called
+
+// 6. Info
+console.info('Crocodiles eat 3 to 4 people per year!')
+
+// 7. Assertions
+console.assert( 1 === 1, 'This is wrong')
+// Will only fire if the assertion is false. If the assertion is true, nothing will happen.
+
+// 8. Clearing
+console.clear()
+// Will clear your console
+
+// 9. Viewing DOM Elements
+// console.log(p)
+
+// VS.
+
+// console.dir(p) => allows you to access a list of methods and properties that lives on that specific element
