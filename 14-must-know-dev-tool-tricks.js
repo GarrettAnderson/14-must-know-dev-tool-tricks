@@ -137,5 +137,19 @@ Garrett: 4
 
 */
 
-
 // 12. Timing
+// To count how long it takes to complete an action such as a function to fetch data from an API. Start a timer:
+
+console.time('fetching data')
+
+fetch('https://some-url.com')
+  .then(data = > data.json())
+  .then(data => {
+    console.log(timeEnd('fetching data'))
+    console.log(data)
+  })
+
+
+
+// 13. Display data in a table
+console.table()
