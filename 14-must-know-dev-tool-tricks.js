@@ -26,4 +26,8 @@ console.log('Hello I am a %s string!', 'testing')
 // 'Hello I am a testing string!'
 
 // 3. Include ad hoc styles directly in console.log;
-console.log('%c I am some great text', 'font-size: 50px; background:red')
+console.log('%c I am some great text', 'font-size: 50px; background:red, text-shadow: 10px 10px aqua')
+
+// 4. Print a WARNING
+console.warn('OH NOOO!')
+// Gives the stack trace (where in the file the warning is being called) of where it got called
