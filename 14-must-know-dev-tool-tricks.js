@@ -104,7 +104,7 @@ console.clear()
 
 dogs.forEach(dog => {
   console.group(`${dog.name}`)
-  // OR console.groupCollapsed(`{dog.name}`)
+  // OR console.groupCollapsed(`{dog.name}`) to consolidate space in the console
 
     console.log(`This is ${dog.name}`)
     console.log(`${dog.name} is ${dog.age} years young.`)
@@ -114,7 +114,28 @@ dogs.forEach(dog => {
 })
 
 // 11. Counting
+console.count('Garrett')
+console.count('William')
+console.count('Garrett')
+console.count('Garrett')
+console.count('William')
+console.count('William')
+console.count('Garrett')
 
+// Will tell you how many times you have run that specific console statement.
+
+/*
+OUTPUT in the console:
+
+Garrett: 1
+William: 1
+Garrett: 2
+Garrett: 3
+William: 2
+William: 3
+Garrett: 4
+
+*/
 
 
 // 12. Timing
